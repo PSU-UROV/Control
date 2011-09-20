@@ -178,19 +178,19 @@ int main(void)
 	/*
 	response_set_p_gain(AxisY, 0.1);
 	response_set_p_gain(AxisRoll, 1.04);
-	response_set_p_gain(AxisPitch, 1.04);
-	response_set_p_gain(AxisYaw, 0.8);
-	response_set_d_gain(AxisRoll, 0.32);
-	response_set_d_gain(AxisPitch, 0.32);
-	response_set_d_gain(AxisYaw, 0.4);
-	response_set_i_gain(AxisRoll, 0.0023);
-	response_set_i_gain(AxisPitch, 0.0023);
-	response_set_i_gain(AxisYaw, 0.0002);
+	response_set_p_gain(AxisPitch, 0.0);
+	response_set_p_gain(AxisYaw, 0.0);
+	response_set_d_gain(AxisRoll, 0.0);
+	response_set_d_gain(AxisPitch, 0.0);
+	response_set_d_gain(AxisYaw, 0.0);
+	response_set_i_gain(AxisRoll, 0.0);
+	response_set_i_gain(AxisPitch, 0.0);
+	response_set_i_gain(AxisYaw, 0.0);
 	*/
 
-	response_set_p_gain(AxisY, 0.1);
+	response_set_p_gain(AxisY, 0.05);
 	response_set_p_gain(AxisRoll, 1.2);
-	response_set_p_gain(AxisPitch, 1.1);
+	response_set_p_gain(AxisPitch, 1.0);
 	response_set_p_gain(AxisYaw, 1.0);
 	response_set_d_gain(AxisRoll, 0.28);
 	response_set_d_gain(AxisPitch, 0.25);
